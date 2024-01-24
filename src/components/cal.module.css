@@ -1,0 +1,135 @@
+body 
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background: #ecf0f3;
+}
+.container 
+{ 
+      /* margin-left: 1.8em; */
+    padding: 0px 20px 20px 20px;
+    border-radius: 8px;
+    box-shadow: 13px 13px 20px #cbced1,
+              -13px -13px 20px #ffffff; 
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-bottom: 5px;
+}
+/* .row1{
+    display: flex;
+    justify-content: center;
+    display: block;
+    margin-bottom: .2em;
+    width: 300px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+} */
+.row button 
+{
+    width: 50px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #00000020,
+               -5px -5px 8px #ffff;
+}
+/* .input1 {
+    margin-top: .5em;
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    box-shadow: inset 8px 8px 8px -8px #cbced1, inset -8px 0 8px -8px #cbced1;
+} */
+
+/* .input {
+    margin-bottom: .5em;
+    display: block;
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    box-shadow: inset 8px 0 8px -8px #cbced1, inset 8px -8px 8px white;
+} */
+
+#equal{
+    background-color: rgb(135, 185, 235);
+    color: white;
+}
+#ac{
+    background-color: red;
+    color: white;
+}
+.display {
+    display: flex;
+    width: 320px;
+    height: 100px;
+    flex-direction: column;
+    /* box-shadow: inset 8px 0 8px -8px #cbced1, inset 8px -8px 8px white;
+    box-shadow: inset 8px 8px 8px -8px #cbced1, inset -8px 0 8px -8px #cbced1; */
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+  }
+  
+  @media (min-width: 800px) {
+    .display {
+border-radius: 10px;
+    }
+  }
+  
+  .expression {
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+  }
+  
+  .input,
+  .value {
+    text-align: right;
+    background-color: transparent;
+    color: black;
+    border: 0px;    
+    letter-spacing: 1.5px;
+  }
+  .row-1{
+    padding-top: 5px;
+  }
+  .input {
+    font-size: 25px;
+    padding: 20px 4px 29px 29px;
+  }
+  
+  .value {
+    padding-top: 8px;
+    padding-right: 5px;
+    font-size: 15px;
+  }
+  .input::placeholder,
+  .value::placeholder {
+    color: black;
+  }
